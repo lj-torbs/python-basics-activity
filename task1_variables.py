@@ -9,24 +9,24 @@ Replace every TODO. Do not rename the variables or functions.
 #    age          -> an int
 #    gpa          -> a float
 #    is_enrolled  -> a bool
-student_name = None  # TODO
-age = None  # TODO
-gpa = None  # TODO
-is_enrolled = None  # TODO
+student_name = "Josh"  # TODO
+age = 24 # TODO
+gpa = 1.25  # TODO
+is_enrolled = True  # TODO
 
 # 2. Swap the values of a and b WITHOUT creating a third variable.
 #    After your code runs, a must be 7 and b must be 3.
 a = 3
 b = 7
-# TODO: swap them here (hint: multiple assignment)
+a, b = b, a# TODO: swap them here (hint: multiple assignment)
 
 # 3. Which of these are valid Python variable names?
 #    Put ONLY the valid ones in the list, in the same order they appear.
 candidates = ["my_var", "2nd_place", "_hidden", "first-name", "Total", "for", "user name", "x1"]
-valid_names = []  # TODO
+valid_names = ["my_var", "_hidden", "Total", "x1"]  # TODO
 
 # 4. One line that assigns the value 0 to x, y and z at the same time.
-# TODO: write it here, e.g. x = ...
+x = y = z = 0 # TODO: write it here, e.g. x = ...
 
 if __name__ == "__main__":
     print(student_name, age, gpa, is_enrolled)
