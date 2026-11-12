@@ -1,50 +1,49 @@
-"""Task 2: Strings, escape sequences, f-strings, string methods  (lessons 1.3 to 1.6)
+"""Task 3: Numbers, working with numbers, type conversion  (lessons 1.7 to 1.9)
 
 Complete each function. Keep the function names and parameters.
-Run the checks with:  python -m unittest tests.test_tasks.Task2Strings -v
+Run the checks with:  python -m unittest tests.test_tasks.Task3Numbers -v
 """
+import math
 
 
-def greet(name):
-    """Return 'Hello, <name>!' using an f-string.  greet('Ana') -> 'Hello, Ana!'"""
-    return None  # TODO
+def average(a, b, c):
+    """Return the average of three numbers rounded to 2 decimal places.
+    average(80, 85, 90) -> 85.0"""
+    return round ((a + b + c)/ 3, 2)
 
 
-def clean(text):
-    """Remove spaces at both ends and make it Title Case.
-    clean('  juan dela cruz ') -> 'Juan Dela Cruz'"""
-    return None  # TODO
+def to_hours_minutes(total_minutes):
+    """Return a tuple (hours, minutes). Use // and %.
+    to_hours_minutes(135) -> (2, 15)"""
+    return (total_minutes // 60, total_minutes % 60)
 
 
-def shout(text):
-    """Return the text in UPPER CASE followed by '!'.  shout('hey') -> 'HEY!'"""
-    return None  # TODO
+def celsius_to_f(c):
+    """Return the Fahrenheit value: c * 9 / 5 + 32.  celsius_to_f(100) -> 212.0"""
+    return c * 9 / 5 + 32
 
 
-def dialogue(speaker, line):
-    """Return: <speaker> says: "<line>"  (the line wrapped in double quotes).
-    dialogue('Maria', 'Hi') -> 'Maria says: "Hi"'
-    Use an escape sequence or different quote types."""
-    return None  # TODO
+def add_strings(x, y):
+    """x and y are numbers typed as text. Return their sum as an int.
+    add_strings('12', '30') -> 42   (type conversion!)"""
+    return int(x) + int(y)
 
 
-def receipt():
-    """Return a two line string using escape sequences:
-    line 1 is  Item<TAB>Price   line 2 is  Pen<TAB>10
-    The result must be exactly 'Item\\tPrice\\nPen\\t10'."""
-    return None  # TODO
+def is_even(n):
+    """Return True if n is even, else False. Use the % operator."""
+    return n % 2 == 0
 
 
-def initials(full_name):
-    """Return the capital first letters of each word.
-    initials('juan dela cruz') -> 'JDC'  (hint: split, then a loop or join)"""
-    return None  # TODO
+def circle_area(r):
+    """Return pi * r squared, rounded to 2 decimals. Use math.pi.
+    circle_area(2) -> 12.57"""
+    return round(math.pi * r ** 2, 2)
 
 
 if __name__ == "__main__":
-    print(greet("Ana"))
-    print(clean("  juan dela cruz "))
-    print(shout("hey"))
-    print(dialogue("Maria", "Hi"))
-    print(receipt())
-    print(initials("juan dela cruz"))
+    print(average(80, 85, 90))
+    print(to_hours_minutes(135))
+    print(celsius_to_f(100))
+    print(add_strings("12", "30"))
+    print(is_even(7))
+    print(circle_area(2))
