@@ -1,0 +1,59 @@
+[33mcommit d18be6db768b7ffa6da2577d7621cee0f759b745[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ausman150717tc-ops <a.usman.150717.tc@umindanao.edu.ph>
+Date:   Wed Nov 11 18:49:38 2026 +0800
+
+    Complete task 3: numbers
+
+[33mcommit 60253eb764083048079b375fefc64ee6e7825f42[m
+Author: ausman150717tc-ops <a.usman.150717.tc@umindanao.edu.ph>
+Date:   Wed Nov 11 18:39:27 2026 +0800
+
+    Complete task 2: strings
+
+[33mcommit fe182a638f7b3f5f8f4a59153c4e4e7509c35f2d[m
+Author: ausman150717tc-ops <a.usman.150717.tc@umindanao.edu.ph>
+Date:   Wed Nov 11 18:28:04 2026 +0800
+
+    Complete task 1: variables
+
+[33mcommit 22e27353ba34ad693f06adee8444ddb0ac47e244[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:11:05 2026 +0800
+
+    Add README for Python Basics Git Activity
+
+[33mcommit 5671206ce3fc2725512ca68f1c90c01a7cb5df5b[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:10:30 2026 +0800
+
+    Add Python and VSCode files to .gitignore
+
+[33mcommit fda0ccbb179b650bb2f7c528b193933fa76515ea[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:09:57 2026 +0800
+
+    Add warning comment to tests/__init__.py
+
+[33mcommit 67552c6088fbd4f0d4047bf687f3b9ebd8409c3c[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:09:29 2026 +0800
+
+    Create unit tests for task1, task2, and task3
+
+[33mcommit 80b0a47352ce95c7865271bf770da109c8a90038[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:08:52 2026 +0800
+
+    Add functions for number operations and conversions
+
+[33mcommit e1bf99c1ed4e726994f8c230a9bc771528f7e8fb[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:08:22 2026 +0800
+
+    Add string manipulation functions for Task 2
+
+[33mcommit f9a7f9297869bcd0c6c013bde0504a85a0e526e2[m
+Author: torbuloloy <lwlljyrcll@gmail.com>
+Date:   Wed Nov 11 09:07:45 2026 +0800
+
+    Add task 1: variables
